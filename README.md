@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+VisionAI - Voice-First Visual Assistant for the Visually Impaired
+VisionAI is an innovative, accessible web application designed to empower visually impaired users through intelligent voice interaction and AI-powered vision capabilities. This prototype offers a clean, user-friendly interface with a variety of integrated features structured across dedicated pages to deliver a comprehensive accessibility solution.
 
-## Project info
+Features & Pages:
+Home: Central hub with quick voice-enabled access to major functionalities.
 
-**URL**: https://lovable.dev/projects/0b5901fc-631c-43a1-bbd8-421e681585e4
+Live Vision: Real-time object detection via device camera that identifies and alerts users about front-facing obstacles and environmental elements relevant to safe navigation.
 
-## How can I edit this code?
+What’s Around Me: Provides detailed scene analysis and spatial descriptions, allowing users to understand their surroundings through simple voice commands.
 
-There are several ways of editing your application.
+Navigation: Voice-guided directions with search capabilities for common locations and indoor wayfinding.
 
-**Use Lovable**
+Emergency: Immediate access to emergency contacts, one-tap calling, location sharing, and alert sending for enhanced safety.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0b5901fc-631c-43a1-bbd8-421e681585e4) and start prompting.
+Contacts: Manage personal and emergency contacts with call, message, and edit options.
 
-Changes made via Lovable will be committed automatically to this repo.
+Settings: Customizable voice parameters, accessibility options such as high contrast, large text, haptic feedback, and multi-language support enhance usability for diverse needs.
 
-**Use your preferred IDE**
+Voice Commands: Comprehensive library of all supported commands for easy user reference and onboarding.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+History: Logs user interaction history and detection activity for review and transparency.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Tutorial: Step-by-step interactive guide to familiarize users with app capabilities through voice and touch.
 
-Follow these steps:
+VisionAI’s backend integrates Google Cloud AI services (Vision API, Dialogflow, Speech-to-Text, Text-to-Speech) ensuring scalable, real-time performance with strict attention to data privacy and user autonomy. Emergency features prioritize user safety, while personalization options maximize comfort and inclusivity.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0b5901fc-631c-43a1-bbd8-421e681585e4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project lays a robust foundation for future development, including integration with wearable smart glasses and advanced AI workflows, aiming to revolutionize assistive technology for the visually impaired community.
